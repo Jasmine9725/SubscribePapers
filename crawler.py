@@ -62,13 +62,13 @@ async def search_paper_info(session, paper_item):
         'SIGIR Conference', 'Workshop', 'tutorial', 'The Web Conference ', 
         'ACM SIGKDD Conference', 'International World Wide Web', 'ACM Conference on Recommender Systems']
     '''
-    filter_keywords = ['Computer Vision and Pattern Recognition',
-                       'International Conference on Learning Representations',
-                       'Workshop',
+    filter_keywords = ['Attention Language Model',
+                       'Transformer Language Model',
+                       'Language Understanding',
                        'Neural Information Processing Systems',
-                       'Competition',
-                       'Computer Vision',
-                       'International Conference on Computer Vision',
+                       'BERT',
+                       'Time Series',
+                       'Sequential',
                        'Conference on Artificial Intelligence',
                        'Association for Computational Linguistics' 
                       ]
