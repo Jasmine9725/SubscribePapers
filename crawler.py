@@ -57,7 +57,7 @@ async def clean_author_name(author):
 
 
 async def search_paper_info(session, paper_item):
-    '''filter_keywords = ['Virtual Event', 'Proceedings', 
+    '''filter_keywords = ['ACL', 'NAACL','EMNLP','AAAI','IJCAI','EACL','Proceedings', 
         'International Conference', 'Advances in Information Retrieval',
         'SIGIR Conference', 'Workshop', 'tutorial', 'The Web Conference ', 
         'ACM SIGKDD Conference', 'International World Wide Web', 'ACM Conference on Recommender Systems']
@@ -154,7 +154,7 @@ def save_results(results, filename='results.json'):
         
 def run_all(
     #confs=['www', 'kdd', 'cikm', 'sigir', 'wsdm', 'ecir', 'recsys'],
-    confs=['www', 'cvpr', 'iclr', 'nips', 'eccv', 'iccv','aaai','acl'],
+    confs=['www', 'cvpr', 'iclr', 'nips', 'eccv', 'iccv','aaai','acl','naacl','emnlp','ijcai','eacl'],
     filter_keywords=['kddcup', 'w.html', 'lbr.html'],
     start_year=2012,
     filename='results.json',
