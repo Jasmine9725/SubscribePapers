@@ -42,10 +42,10 @@ jobs:
           git config --local user.name "github-actions"
           git add --all
           if [ -z "$(git status --porcelain)" ]; then
-             echo "::set-output name=push::false"
+             echo "{name}={value}" >> $GITHUB_OUTPUT
           else
              git commit -m "chore: update confs" -a
-             echo "::set-output name=push::true"
+             echo "{name}={value}" >> $GITHUB_OUTPUT
           fi
         shell: bash
 
